@@ -7,7 +7,7 @@ iconsdir := sharedir + '/icons/hicolor'
 
 # Binary name
 name := 'cosmic-applet-claude'
-appid := 'dev.m4ul3r.CosmicAppletClaude'
+appid := 'dev.m4ul3r.CosmicExtAppletClaude'
 
 # Default target
 default: build-release

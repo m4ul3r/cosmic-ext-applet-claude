@@ -6,7 +6,7 @@ Terminal=false
 Categories=COSMIC;
 Keywords=COSMIC;Claude;AI;
 # Translators: Do NOT translate or transliterate this text (this is an icon file name)!
-Icon=dev.m4ul3r.CosmicAppletClaude-symbolic
+Icon=dev.m4ul3r.CosmicExtAppletClaude-symbolic
 StartupNotify=true
 NoDisplay=true
 X-CosmicApplet=true

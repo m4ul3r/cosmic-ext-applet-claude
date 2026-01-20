@@ -3,7 +3,7 @@
 use cosmic::cosmic_config::{self, cosmic_config_derive::CosmicConfigEntry, CosmicConfigEntry};
 use serde::{Deserialize, Serialize};
 
-pub const APP_ID: &str = "dev.m4ul3r.CosmicAppletClaude";
+pub const APP_ID: &str = "dev.m4ul3r.CosmicExtAppletClaude";
 
 #[derive(Debug, Clone, PartialEq, Eq, Serialize, Deserialize, Default)]
 pub enum IconDisplay {
