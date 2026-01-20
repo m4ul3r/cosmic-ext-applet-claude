@@ -1,0 +1,22 @@
+[package]
+name = "cosmic-applet-claude"
+version = "0.1.0"
+edition = "2021"
+license = "GPL-3.0-only"
+
+[dependencies]
+libcosmic = { git = "https://github.com/pop-os/libcosmic", default-features = false, features = ["applet", "tokio", "wayland", "process"] }
+cosmic-time = { git = "https://github.com/pop-os/cosmic-time" }
+anyhow = "1.0"
+i18n-embed-fl = "0.9"
+i18n-embed = { version = "0.15", features = ["fluent-system", "desktop-requester"] }
+rust-embed = "8.5"
+tokio = { version = "1.0", features = ["full"] }
+tracing-log = "0.2"
+tracing-subscriber = { version = "0.3", features = ["env-filter"] }
+tracing = "0.1"
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+dirs = "6.0"
+reqwest = { version = "0.12", features = ["json", "rustls-tls"], default-features = false }
+chrono = { version = "0.4", features = ["serde"] }

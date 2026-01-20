@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+  <!-- Claude Code dual-ring gauge icon - Session Low, Weekly High -->
+  <!-- Background ring (gray) -->
+  <circle cx="8" cy="8" r="6" fill="none" stroke="#555555" stroke-width="2" opacity="0.3"/>
+  <!-- Outer ring (weekly) - red -->
+  <circle cx="8" cy="8" r="6" fill="none" stroke="#f87171" stroke-width="2"/>
+  <!-- Inner circle (session) - green -->
+  <circle cx="8" cy="8" r="3" fill="#4ade80"/>
+</svg>

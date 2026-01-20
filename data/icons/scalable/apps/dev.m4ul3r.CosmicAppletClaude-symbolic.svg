@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+  <!-- Claude Code sunburst/sparkle icon - symbolic -->
+  <g transform="translate(8,8)" fill="#808080">
+    <!-- Center dot -->
+    <circle cx="0" cy="0" r="1.2"/>
+    <!-- 6 curved tapered rays, 60° apart -->
+    <!-- Ray 0° (up) -->
+    <path d="M0,-2.5 Q1.2,-4 0,-7 Q-1.2,-4 0,-2.5 Z"/>
+    <!-- Ray 60° -->
+    <path d="M0,-2.5 Q1.2,-4 0,-7 Q-1.2,-4 0,-2.5 Z" transform="rotate(60)"/>
+    <!-- Ray 120° -->
+    <path d="M0,-2.5 Q1.2,-4 0,-7 Q-1.2,-4 0,-2.5 Z" transform="rotate(120)"/>
+    <!-- Ray 180° -->
+    <path d="M0,-2.5 Q1.2,-4 0,-7 Q-1.2,-4 0,-2.5 Z" transform="rotate(180)"/>
+    <!-- Ray 240° -->
+    <path d="M0,-2.5 Q1.2,-4 0,-7 Q-1.2,-4 0,-2.5 Z" transform="rotate(240)"/>
+    <!-- Ray 300° -->
+    <path d="M0,-2.5 Q1.2,-4 0,-7 Q-1.2,-4 0,-2.5 Z" transform="rotate(300)"/>
+  </g>
+</svg>
